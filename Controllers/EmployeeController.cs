@@ -57,6 +57,15 @@ namespace TestApp.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public IActionResult Delete(int id)
+        {
+            var data = _context.Employees.Where(x => x.id == id).First();
+            _context.Employees.Remove(data);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index");
+        }
     }
 }
 
