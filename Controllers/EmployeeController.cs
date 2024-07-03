@@ -32,10 +32,16 @@ namespace TestApp.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Add(Employee employee)
         {
-            _context.Employees.Add(employee);
-            _context.SaveChanges();
+            if (ModelState.IsValid)
+            {
+                _context.Employees.Add(employee);
+                _context.SaveChanges();
+            }
+
+             
             return RedirectToAction("Index");
         }
 
@@ -51,10 +57,16 @@ namespace TestApp.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Update(Employee employee)
         {
-            _context.Employees.Update(employee);
-            _context.SaveChanges();
+            if (ModelState.IsValid)
+            {
+                _context.Employees.Update(employee);
+                _context.SaveChanges();
+            }
+
+               
             return RedirectToAction("Index");
         }
 
