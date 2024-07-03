@@ -38,6 +38,25 @@ namespace TestApp.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        public IActionResult Update(int id)
+        {
+            var employee = _context.Employees.Find(id);
+
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            return View(employee);
+        }
+
+        [HttpPost]
+        public IActionResult Update(Employee employee)
+        {
+            _context.Employees.Update(employee);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
 

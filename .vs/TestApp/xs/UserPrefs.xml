@@ -1,4 +1,37 @@
 ﻿<Properties StartupConfiguration="{859BFA75-B002-4BE4-9F36-39A7464D6751}|https">
-  <MonoDevelop.Ide.ItemProperties.TestApp FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TestApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Employee/Create.cshtml">
+    <Files>
+      <File FileName="Program.cs" Line="12" Column="81" />
+      <File FileName="Data/ApplicationDbContext.cs" Line="14" Column="22" />
+      <File FileName="appsettings.json" Line="3" Column="121" />
+      <File FileName="Migrations/20240702201314_InitialCreate.cs" Line="1" Column="1" />
+      <File FileName="Models/Employee.cs" Line="20" Column="30" />
+      <File FileName="Migrations/Employee/EmployeeContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="Controllers/EmployeeController.cs" Line="33" Column="1" />
+      <File FileName="Views/Employee/Index.cshtml" Line="18" Column="6" />
+      <File FileName="Views/Employee/Create.cshtml" Line="9" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestApp">
+            <Node name="TestApp" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Employee" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

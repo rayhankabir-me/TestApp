@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LXL1H+eJeFg=",
+  "dgSpecHash": "aoikkFaYEV9SxiXT//fk8IFTrkSbzZ8tH4/IxXzw5pr68XWveqsNwOFQlKw1xZalxgGPz4MFQHhFx/mTC1oN2w==",
   "success": true,
   "projectFilePath": "/Users/rayhankabir/Projects/TestApp/TestApp.csproj",
   "expectedPackageFiles": [
@@ -43,10 +43,7 @@
     "/Users/rayhankabir/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/rayhankabir/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/rayhankabir/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
-    "/Users/rayhankabir/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512",
-    "/Users/rayhankabir/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/rayhankabir/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "/Users/rayhankabir/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.20/microsoft.netcore.app.host.osx-arm64.7.0.20.nupkg.sha512"
+    "/Users/rayhankabir/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
